@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root {
+    --blue: #3b82f6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.container {
+    padding: 0 5rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+.navbar-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navbar-nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar-nav a {
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+}
+.navbar-nav a:hover {
+    background-color: #f0f0f0;
+}
+.navbar .login-btn {
+    padding: 0.5rem 1.25rem;
+}
+.hero {
+    display: flex;
+    padding: 2rem 2rem 0;
+    gap: 3rem;
+}
+.hero h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.hero img {
+    width: 50%;
+}
+.btn-blue {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--blue);
+    color: #fff;
+    font-size: larger;
+}
+.data {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+.data .card {
+    padding: 2rem;
+}
+.data .card h2 {
+    font-size: 2.25rem;
+}
+.data .card h4 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+footer {
+    padding: 1.5rem 8rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
+footer > div {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-right: 3rem;
+}
+footer .profile-info {
+    margin-bottom: 1rem;
+}
+footer .profile-info h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+footer .profile-info a:hover {
+    text-decoration: underline;
+}
