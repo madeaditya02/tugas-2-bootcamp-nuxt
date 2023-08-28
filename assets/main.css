@@ -82,25 +82,31 @@ a {
     font-weight: normal;
 }
 footer {
-    padding: 1.5rem 8rem 0.5rem;
-    display: flex;
-    justify-content: space-between;
+    padding: 1.5rem 8rem 1rem;
     background-color: #f0f0f0;
 }
-footer > div {
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content > div {
     display: flex;
     justify-content: center;
     gap: 5rem;
     margin-right: 3rem;
 }
-footer .profile-info {
+.footer-content .profile-info {
     margin-bottom: 1rem;
 }
-footer .profile-info h3 {
+.footer-content .profile-info h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
-footer .profile-info a:hover {
+.footer-content .profile-info a:hover {
     text-decoration: underline;
+}
+footer .copyright {
+    margin-top: 1rem;
+    text-align: center;
 }

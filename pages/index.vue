@@ -34,29 +34,32 @@
       </div>
     </div>
     <footer>
-      <a href="" class="navbar-title">Problog</a>
-      <div>
-        <div class="profile">
-          <div class="profile-info">
-            <h3>Email :</h3>
-            <a target="_blank" href="mailto:imadeaditya4@gmail.com">imadeaditya4@gmail.com</a>
+      <div class="footer-content">
+        <a href="" class="navbar-title">Problog</a>
+        <div>
+          <div class="profile">
+            <div class="profile-info">
+              <h3>Email :</h3>
+              <a target="_blank" href="mailto:imadeaditya4@gmail.com">imadeaditya4@gmail.com</a>
+            </div>
+            <div class="profile-info">
+              <h3>Whatsapp :</h3>
+              <a target="_blank" href="https://wa.me/08973891362">08973891362</a>
+            </div>
           </div>
-          <div class="profile-info">
-            <h3>Whatsapp :</h3>
-            <a target="_blank" href="https://wa.me/08973891362">08973891362</a>
-          </div>
-        </div>
-        <div class="profile">
-          <div class="profile-info">
-            <h3>Github :</h3>
-            <a target="_blank" href="https://github.com/madeaditya02">MadeAditya02</a>
-          </div>
-          <div class="profile-info">
-            <h3>Instagram :</h3>
-            <a target="_blank" href="https://instagram.com/mdadityaa02">@mdadityaa02</a>
+          <div class="profile">
+            <div class="profile-info">
+              <h3>Github :</h3>
+              <a target="_blank" href="https://github.com/madeaditya02">MadeAditya02</a>
+            </div>
+            <div class="profile-info">
+              <h3>Instagram :</h3>
+              <a target="_blank" href="https://instagram.com/mdadityaa02">@mdadityaa02</a>
+            </div>
           </div>
         </div>
       </div>
+      <p class="copyright">Copyright 2023 | Made Aditya</p>
     </footer>
   </div>
 </template>
